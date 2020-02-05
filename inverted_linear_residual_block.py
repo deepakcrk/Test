@@ -24,7 +24,7 @@ def inverted_linear_residual_block(x):
     #------------------------------------------------------------------------------------------------------#
     # No non-linear activations like RELU here.                                                            #
     # Non linear transformation is used to preserve information,                                           #
-    # Prevents non-linearities (like ReLU) from destroying too much                                        #
+    # Non linearities like ReLU is not used as it can destroy data or cause lose of information            #
     #                                                                                                      #
     # the main difference between 'inverted_residual_block' and 'inverted_linear_residual_block' is that   #
     # there is no non-linear activations in the end for 'inverted_linear_residual_block'                   #
